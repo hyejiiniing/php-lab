@@ -1,14 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>first PHP page</h1>
-    <?php
-        echo "Hello PHP!";
-    ?>
-</body>
-</html>
+<?php
+$txt = "안녕하세요"; // 문자열
+$x = 5; // 정수
+$y = 2.5; // 실수
+$X = 10;
+// 변수는 대소문자를 구분한다.
+echo "x = $x, X = $X";
+?>
